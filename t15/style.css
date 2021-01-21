@@ -1,0 +1,31 @@
+body {
+    margin-left: 100px;
+}
+
+img {
+    height: 100px;
+}
+
+.hand {
+    height: 300px;
+}
+.hr {
+    margin: 0;
+    padding: 4px;
+}
+
+.first-li {
+    display: block;
+    height: 260px;
+    width: 110px;
+    margin-bottom: 30px;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.first-li:hover ~ li:nth-child( odd) {
+    visibility: hidden;
+}

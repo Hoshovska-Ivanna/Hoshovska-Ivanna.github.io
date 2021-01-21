@@ -1,0 +1,64 @@
+.wrap { 
+    padding: 50px;
+    flex-wrap: wrap;
+    display: flex;
+}
+span { 
+    color: white;
+    position: absolute;
+    right: 0;
+    padding: 10 px 10 px;
+    font-family: Verdana, Geneva, Tohona, sans-serif;
+}
+img {
+    position: absolute;
+    height: 182px;
+    bottom: -9px;
+    transform: scale(0.9);
+}
+
+.Captain_America {
+    position: relative;
+    width: 270px;
+    height: 140px;
+    border-radius: 5px;
+    background: linear-gradient(#4568DC, #b06ab3);
+    margin: 30px;
+}
+
+.Iron_Man {
+    position: relative;
+    width: 270px;
+    height: 140px;
+    border-radius: 5px;
+    background: linear-gradient(#e52d27 , #b31217);
+    margin: 30px;
+}
+
+.Black_Widow {
+    position: relative;
+    width: 270px;
+    height: 140px;
+    border-radius: 5px;
+    background: linear-gradient(#000 , #61045F);
+    margin: 30px;
+}
+
+.Spider_Man {
+    position: relative;
+    width: 270px;
+    height: 140px;
+    border-radius: 5px;
+    background: linear-gradient(#e52d27 , #000);
+    margin: 30px;
+}
+.Spider_Man img {
+    bottom: -35px;
+}
+.superhero_alias {
+    font-size: 12px;
+}
+.real_name {
+    font-size: 9 px;
+    color: rgba(255, 255, 255, 0.5) ;
+}

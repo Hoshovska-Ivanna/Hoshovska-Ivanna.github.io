@@ -1,0 +1,41 @@
+table {
+    text-align: center;
+    border-collapse: collapse;
+    border: 2px solid lightgray;
+}
+
+td {
+    border: 1px solid #ffffff;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+
+.color {
+    background-color: rgb(177, 124, 27);
+}
+
+.color1 {
+    background-color:  rgb(27, 107, 27);
+}
+.color2 {
+    background-color: rgb(7, 71, 168);
+}
+.color3 {
+    background-color:rgb(212, 210, 71);
+}
+.color4 {
+    background-color: red;
+}
+.color5 {
+    background-color: rgb(139, 87, 223);
+}
+.image {
+    border-radius: 25%;
+    padding: 25px;
+    width: 100px;
+    height: 100px;
+}
+

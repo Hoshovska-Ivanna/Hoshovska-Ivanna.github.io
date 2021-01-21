@@ -1,0 +1,232 @@
+h1 {
+    text-align: center;
+}
+
+@media screen and (max-width:640px) {
+    .wrapper {
+        max-width: 630px;
+        display: grid;
+        grid-template-columns: repeat(2, 100%);
+        grid-template-rows: auto;
+        gap: 2px 2px;
+        border: 1px solid black;
+        width: 80%;
+        padding: 10px;
+        margin: 0 auto;
+        border-radius: 5px;
+    }
+    .one {
+        grid-column: 1/ span 2;
+        grid-row: 1/2;
+        width: 40%;
+    }
+    .two {
+        grid-column: 1/ span 3;
+        grid-row: 2/3;
+        width: 45%;
+    }
+    .three {
+        grid-column: 1/ span 2;
+        grid-row: 3/4;
+        width: 37%;
+    }
+    .four {
+        grid-column: 1/2;
+        grid-row: 4/5;
+        width: 60%;
+        height: 100%;
+    }
+    .five {
+        grid-column: 1/2;
+        grid-row: 5/6;
+        position: relative;
+        width: 50%;
+        height: 100%;
+    }
+    .six {
+        grid-column: 2/ 3;
+        grid-row: 4/6;
+        position: relative;
+right: 230px;
+        width: 40%;
+        height: 100%;
+    }
+    .eight {
+        grid-column: 1/2;
+        grid-row: 6/7;
+        width: 55%;
+        height: 80%;
+    }
+    .nine {
+        grid-column: 2/3;
+        grid-row: 6/7;
+        width: 40%;
+        height: 80%;  
+        position: relative;
+        right: 260px;
+      }
+    .six {
+        grid-column: 1/2;
+        grid-row: 7/8;
+        width: 65%;
+        height: 100%;  
+        position: relative;
+        bottom: 120px;
+      }
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width:640px) {
+    .wrapper {
+        max-width: 1326px;
+        min-width: 650px;
+        display: grid;
+        grid-template-columns: repeat(2, 20%);
+        grid-template-rows: auto;
+        gap: 2px 2px;
+        border: 1px solid black;
+        width: 80%;
+        padding: 10px;
+        margin: 0 auto;
+        border-radius: 5px;
+    }
+    .one {
+        grid-column: 1/ span 2;
+        grid-row: 1/2;
+        width: 165%;
+        height: 100%;
+    
+    }
+    .two {
+        grid-column: 1/ span 3;
+        grid-row: 2/3;
+        width: 130%;
+    }
+    .three {
+        grid-column: 1/ span 2;
+        grid-row: 3/4;
+        width: 150%;
+        height: 100%;
+    }
+    .four {
+        grid-column: 1/4;
+        grid-row: 4/5;
+        width: 75%;
+    }
+    .five {
+        grid-column: 4/5;
+        grid-row: 4/5;
+        width: 160%;
+        position: relative;
+        right: 170px;
+    }
+    .seven {
+        grid-column: 1/2;
+        grid-row: 5/6;
+        width: 160%;
+    }
+    .eight {
+        grid-column: 2/3;
+        grid-row: 5/6;
+        width: 240%;
+        position: relative;
+        left: 90px;
+    }
+    .nine {
+        grid-column: 1/2;
+        grid-row: 6/7;
+    }
+    .six {
+        grid-column: 2/3;
+        grid-row: 6/7;
+        width: 220%;
+    }
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 1336px) {
+    .wrapper {
+        max-width: 1326px;
+        display: grid;
+        grid-template-columns: repeat(5, 200px);
+        gap: 2px 2px;
+        grid-template-rows: 30% 20% 50%;
+        border: 1px solid black;
+        width: 100%;
+        padding: 10px;
+        margin: 0 auto;
+        border-radius: 5px;
+    }
+    .one {
+        grid-column: 1/ span 2;
+        grid-row: 1/2;
+        width: 145%;
+        height: 100%;
+    }
+    .two {
+        grid-column: 3/ span 4;
+        grid-row: 1/2;
+        width: 80%;
+        height: 100%;
+        position: relative;
+        left: 185px;
+    }
+    .three {
+        grid-column: 1/ span 2;
+        grid-row: 2/3;
+        width: 130%;
+        height: 100%;
+    }
+    .four {
+        grid-column: 3/ span 2;
+        grid-row: 2/3;
+        width: 110%;
+        height: 100%;
+        position: relative;
+        left: 120px;
+    }
+    .five {
+        grid-column: 5/ span 5;
+        grid-row: 2/3;
+        width: 70%;
+        height: 100%;
+        position: relative;
+        left: 155px;
+    }
+    .six {
+        grid-column: 5/ span 6;
+        grid-row: 3/4;
+        width: 80%;
+        height: 100%;
+        position: relative;
+        left: 105px;
+    }
+    .seven {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        width: 140%;
+        height: 100%;
+    }
+    .eight {
+        grid-column: 2/ span 2;
+        grid-row: 3/4;  
+        width: 90%;
+        height: 100%;
+    }
+    .nine {
+        grid-column: 4/5;
+        grid-row: 3/4;
+        position: relative;
+        left: 110px;
+    }
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
